@@ -4,6 +4,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body
+{
+    background-color: black;
+    color: white;
+}
+
 
 
 @media(max-width:700px){
@@ -170,7 +176,7 @@ h1{
     font-weight: 600;
 }
 p{
-    color: #777;
+    color: #c4bcbc;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -183,11 +189,16 @@ p{
 }
 .course-col{
     flex-basis: 31%;
-    background: #fff3f3;
+    background: #343232;
     border-radius:10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+}
+
+.course-col p 
+{
+    color: #e4e0e0;
 }
 h3{
     text-align:center;
@@ -290,7 +301,7 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left; 
-    background: #fff3f3;
+    background: #343232;
     padding: 25px;
     cursor: pointer;
     display: flex;
